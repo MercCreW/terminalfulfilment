@@ -1,0 +1,31 @@
+@font-face {
+    /* src: url("./Inter-Regular.woff2") format("woff2"),
+         url("./Inter-Regular.woff") format("woff");
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400; */
+  }
+
+.header{
+    background-color: #272727;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat, Arial, Helvetica;
+}
+
+.header__logo{
+    margin: 20px;
+}
+
+.header__menu{
+    color: #FDF904;
+    margin: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
