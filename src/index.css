@@ -1,3 +1,35 @@
+@font-face {
+  src: url("./fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
+       url("./fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+       url("./fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"),
+       url("./fonts/Montserrat/Montserrat-Regular.eot") format("opentype");
+  font-family: "Monserrat-regular";
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("./fonts/NeuralFace/NeutralFaceBold.woff2") format("woff2"),
+       url("./fonts/NeuralFace/NeutralFaceBold.woff") format("woff"),
+       url("./fonts/NeuralFace/NeutralFaceBold.ttf") format("truetype"),
+       url("./fonts/NeuralFace/NeutralFaceBold.eot") format("opentype");
+  font-family: "NeuralFace-bold";
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("./fonts/NeuralFace/NeutralFaceRegular.woff2") format("woff2"),
+       url("./fonts/NeuralFace/NeutralFaceRegular.woff") format("woff"),
+       url("./fonts/NeuralFace/NeutralFaceRegular.ttf") format("truetype"),
+       url("./fonts/NeuralFace/NeutralFaceRegular.eot") format("opentype");
+  font-family: "NeuralFace-reg";
+  font-style: bold;
+  font-weight: 400;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

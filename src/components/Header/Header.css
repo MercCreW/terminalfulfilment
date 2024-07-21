@@ -1,31 +1,232 @@
-@font-face {
-    /* src: url("./Inter-Regular.woff2") format("woff2"),
-         url("./Inter-Regular.woff") format("woff");
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400; */
-  }
-
-.header{
+.header {
+    position: relative;
     background-color: #272727;
-    width: 375px;
+}
+
+.header__navigation {
+    box-sizing: border-box;
+    padding: 15px 20px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Montserrat, Arial, Helvetica;
+    border-bottom: 2px solid #FBFBFB;
 }
 
-.header__logo{
-    margin: 20px;
+.header__logo {}
+
+.header__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-.header__menu{
+.header__navigation-item {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.header__navigation-btn {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #F4F4F4;
+}
+
+.header__navigation-btn_active {
+    font-family: Monserrat-regular;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    width: 200px;
+    height: 32px;
+    padding: 6px 16px 6px 16px;
+    gap: 13.71px;
+    border-radius: 65px;
+    color: #181818;
+    background-color: #FDF904;
+}
+
+.header__menu {
+    margin: 0;
+    padding: 0;
+    position: relative;
     color: #FDF904;
-    margin: 20px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
     line-height: 19.5px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.header__menu::after,
+.header__menu::before {
+    content: '';
+    display: block;
+    width: 57px;
+    height: 3px;
+    background-color: #f4f4f4;
+}
+
+
+.header__content {
+    overflow: hidden;
+}
+
+.header__mainImage {
+    background-image: url('../../images/tempTerminal.png');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1px -60px;
+}
+
+.header__title {
+    margin: 0 auto;
+    width: 290px;
+    font-family: NeuralFace-reg;
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #FBFBFB;
+}
+
+.header__text {
+    padding: 1px;
+    margin: 0;
+    position: relative;
+    font-family: NeuralFace-reg;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 26px;
+    color: #FBFBFB;
+}
+
+.header__text:nth-child(2) {
+    text-align: right;
+}
+
+/*.header__title-arrow {
+    width: 27px;
+    height: 27px;
+}*/
+
+.header__text_color_yellow {
+    /*font-size: 33.89px;
+    font-weight: 400;
+    line-height: 31.86px;
+    letter-spacing: 0.05em;
+    text-align: left;*/
+    color: #FDF904;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.arrow::after,
+.arrow::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+}
+
+
+.arrow::after {
+    top: -1px;
+    transform: rotate(45deg);
+}
+
+.arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+
+
+.header__text_color_yellow::before,
+.header__text_color_yellow::after {
+    width: 27px;
+    height: 27px;
+}
+
+.header__text_type_underline {
+    border-bottom: 1px solid #FDF904;
+}
+
+.header__button-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 89.335%;
+    min-height: 135px;
+}
+
+.header__btn-item {
+    min-height: 60px;
+    width: 100%;
+    padding: 0px 26px 0px 26px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header__btn-item_active {
+    background-color: #FDF904;
+}
+
+@media (min-width: 375px) {
+    .header__navigation {
+        width: 100%;
+        max-width: 1445px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        position: relative;
+        background-color: #272727;
+        max-width: 100%;
+        background-image: url("../../images/textureHeader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .header__navigation-list {
+        width: 450px;
+    }
+
+    .header__navigation-item {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__navigation {
+        padding: 15px 75px;
+    }
 }
