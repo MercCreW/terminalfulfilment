@@ -1,0 +1,66 @@
+.advantages {
+  margin: 0 auto;
+  background: #272727;
+  min-height: 1330px;
+}
+
+.advantages__content {
+  padding-top: 10px;
+}
+
+.advantages__title {
+  margin: 100px auto 0px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fdf904;
+  max-width: 300px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 45.12px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.advantages__subtitle {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: Neutral Face;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.88px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #fbfbfb;
+  max-width: 300px;
+}
+
+.advantages__markets {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px auto 130px;
+}
+
+.advanatges__btn {
+  border-radius: 100px;
+  border: none;
+  padding: 10px 25px;
+  background: #fdf904;
+  color: #181818;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: right;
+}
+
+.advantages__cards-list{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: grid;
+    gap: 70px
+}

@@ -1,0 +1,38 @@
+.card {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.card__heading {
+}
+
+.card__title {
+  margin: 0 0 12px;
+  padding: 0;
+  color: #fdf904;
+  font-family: Neutral Face;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+}
+
+.card__info {
+  margin: 0 0 40px;
+  padding: 0;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.card__link {
+  border-bottom: 1px solid #fdf904;
+  text-decoration: none;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+}
