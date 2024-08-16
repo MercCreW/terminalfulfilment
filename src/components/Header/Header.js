@@ -31,7 +31,7 @@ function Header() {
             <span className="header__text_color_yellow">развитием</span>
           </p>
           {/*Rebuild */}
-          <div className="arrow"></div> 
+          {/* <div className="arrow"></div>  */}
           <p className="header__text">
             а не <span className="header__text_type_underline">доставкой</span>
           </p>

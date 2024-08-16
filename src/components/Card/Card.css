@@ -3,6 +3,10 @@
   width: 280px;
 }
 
+.card:last-child{
+  margin-bottom: 135px;
+}
+
 .card__heading {
 }
 

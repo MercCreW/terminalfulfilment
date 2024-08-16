@@ -1,6 +1,7 @@
 import Header from '../Header/Header'
 import BubbleFrame from '../BubbleFrame/BubbleFrame'
 import Advantages from '../Advantages/Advantages'
+import About from '../About/About'
 import './App.css';
 
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <BubbleFrame />
       <Advantages />
+      <About />
     </div>
   );
 }
